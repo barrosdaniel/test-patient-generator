@@ -1,0 +1,185 @@
+/* ======================================================================
+COLOURS
+====================================================================== */
+:root {
+    --color-primary: #005DFF;
+    --color-white: #f9f9f9;
+    --color-black: #111;
+    --color-gray-light: #CCC;
+
+    --box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+
+
+
+/* ======================================================================
+RESETS
+====================================================================== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: "Arial Rounded MT", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* ======================================================================
+LAYOUT
+====================================================================== */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* ======================================================================
+WEBSITE
+====================================================================== */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: var(--box-shadow);
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.menu {
+    margin: 11.5rem auto 3rem;
+}
+
+.menu__text {
+    font-size: 2.4rem;
+    color: var(--color-black);
+}
+
+.menu__options {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.menu__button {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--color-primary);
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    transition: 0.2s;
+}
+
+.menu__button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.menu__button:focus {
+    outline: none;
+}
+
+.app {
+    display: none;
+}
+
+.app__title {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 4rem;
+    border: 0.1rem solid var(--color-primary);
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.app__qty-selection {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid var(--color-gray-light);
+    border-radius: 0.5rem;
+}
+
+.app__qty-selection-label {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.app__qty-selection-input {
+    margin-bottom: 1rem;
+    border: 0.1rem solid var(--color-gray-light);
+    font-size: 2rem;
+    padding: 1rem;
+    border: 0.1rem solid var(--color-gray-light);
+    border-radius: 0.2rem;
+}
+
+.app__qty-selection-generate {
+    display: block;
+    border: 0.2rem solid var(--color-primary);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transition: 0.2s;
+}
+
+.app__qty-selection-generate:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    cursor: pointer;
+    outline: none;
+}
+
+.app__qty-selection-generate:focus {
+    outline: none;
+}
+
+.app__data {
+    padding: 1rem;
+    margin-bottom: 6rem;
+    border: 0.1rem solid var(--color-gray-light);
+    border-radius: 0.5rem;
+}
+
+.med-app__data {
+    display: none;
+}
+
+.med-app__data-string {
+    font-size: 1.6rem;
+}
