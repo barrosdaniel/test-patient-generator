@@ -19,6 +19,11 @@ function displayGenMedNumApp() {
 function generateMedicareNumbers() {
   medAppDataContainer.innerHTML = "";
   const quantity = medAppQuantity.value;
+  if (quantity < 1 || quantity > 100) {
+    window.alert("JS ERROR: The number has to be between 1 and 100. Try again.");
+    medAppQuantity.value = "";
+    return;
+  }
   medAppDataContainer.style.display = "block";
   for (let index = 0; index < quantity; index++) {
     const newP = document.createElement("p");
