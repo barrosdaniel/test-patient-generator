@@ -134,7 +134,8 @@ WEBSITE
     font-size: 2rem;
 }
 
-.app__qty-selection {
+.app__qty-selection,
+.pass-app__qty-selection {
     padding: 1rem;
     margin-bottom: 2rem;
     border: 0.1rem solid var(--color-gray-light);
@@ -146,33 +147,37 @@ WEBSITE
     margin-bottom: 1rem;
 }
 
-.app__qty-selection-input {
+.app__qty-selection-input,
+.pass-app__qty-selection-input {
     margin-bottom: 1rem;
     border: 0.1rem solid var(--color-gray-light);
-    font-size: 2rem;
-    padding: 1rem;
-    border: 0.1rem solid var(--color-gray-light);
     border-radius: 0.2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    outline: none;
 }
 
-.app__qty-selection-generate {
+.app__qty-selection-generate,
+.pass-app__qty-selection-generate {
     display: block;
     border: 0.2rem solid var(--color-primary);
     border-radius: 0.5rem;
     padding: 1rem 2rem;
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-primary);
     transition: 0.2s;
 }
 
-.app__qty-selection-generate:hover {
-    background-color: var(--color-white);
-    color: var(--color-primary);
+.app__qty-selection-generate:hover,
+.pass-app__qty-selection-generate:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
     cursor: pointer;
     outline: none;
 }
 
-.app__qty-selection-generate:focus {
+.app__qty-selection-generate:focus,
+.pass-app__qty-selection-generate:focus {
     outline: none;
 }
 
@@ -183,10 +188,27 @@ WEBSITE
     border-radius: 0.5rem;
 }
 
-.med-app__data {
+.med-app__data,
+.pass-app__data {
     display: none;
 }
 
-.med-app__data-string {
+.med-app__data-string,
+.pass-app__data-string {
     font-size: 1.6rem;
+}
+
+.pass-app-input-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pass-app__qty-selection-input {
+    align-self: center;
+}
+
+.pass-app-input-container__col2 {
+    margin-left: 2rem;
+    font-size: 1.4rem;
 }

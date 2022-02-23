@@ -41,7 +41,7 @@
                 min="1"
                 max="100">
 
-            <button class="app__qty-selection-generate">Generate</button>
+            <button class="app__qty-selection-generate">Generate Medicare Numbers</button>
         </div>
 
         <div class="app__data med-app__data">
@@ -52,6 +52,34 @@
 
     <section class="app pass-app container">
         <h2 class="app__title">Generate Password</h2>
+
+        <div class="pass-app__qty-selection">
+            <p class="app__qty-selection-label">Enter number characters of the password (1-32):</p>
+
+            <div class="pass-app-input-container">
+                <input class="pass-app__qty-selection-input"
+                    type="number"
+                    name="pass-qty"
+                    id="pass-qty"
+                    min="1"
+                    max="32">
+                <div class="pass-app-input-container__col2">
+                    <input type="checkbox" id="smallCaps" name="smallCaps" value="smallCaps">
+                    <label for="smallCaps"> Small caps letters</label><br>
+                    <input type="checkbox" id="caps" name="caps" value="caps">
+                    <label for="caps"> High caps letters</label><br>
+                    <input type="checkbox" id="numbers" name="numbers" value="numbers">
+                    <label for="numbers"> Numbers</label><br>
+                    <input type="checkbox" id="special" name="special" value="special">
+                    <label for="special"> Special characters</label><br>
+                </div>
+            </div>
+            <button class="pass-app__qty-selection-generate">Generate Password</button>
+        </div>
+
+        <div class="app__data pass-app__data">
+            <p class="pass-app__data-string">123456qweQEW!@#</p>
+        </div>
 
     </section>
 
