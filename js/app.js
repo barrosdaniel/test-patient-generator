@@ -128,6 +128,11 @@ passAppGenerateButton.addEventListener("click", generatePassword);
 // Event Handlers
 function generatePassword() {
   passAppDataContainer.innerHTML = "";
+  if(validateCheckboxes() === false) {
+    window.alert("JS ERROR: You need to select at least one character type to include in your password. Try again.");
+    passAppDataContainer.style.display = "none";
+    return;
+  }
   const characters = numCharacters.value;
   if (characters < 1 || characters > 32) {
     window.alert("JS ERROR: The number of characters has to be between 1 and 32. Try again.");
@@ -175,6 +180,17 @@ function assemblePasswordArray() {
 
 function getRandomInteger(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
+}
+
+function validateCheckboxes () {
+  if (
+    smallCapsCheck.checked === false &&
+    capsCheck.checked === false &&
+    numbersCheck.checked === false &&
+    specialCheck.checked === false
+  ) {
+    return false;
+  }
 }
 
 function resetPassApp() {
