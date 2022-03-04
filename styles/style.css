@@ -223,6 +223,7 @@ WEBSITE
 .title-span {
     display: inline-block;
     width: 20rem;
+    margin-bottom: 1rem;
     border-right: 0.1rem solid var(--color-gray-light);
     padding-left: 1rem;
     font-size: 1.6rem;

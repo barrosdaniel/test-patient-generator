@@ -225,6 +225,7 @@ const femaleNames = ["Abby", "Ada", "Adele", "Agnes", "Alexa", "Amelia", "Angel"
 const countFemaleNames = femaleNames.length;
 const familyNames = ["Abbott", "Adam", "Adams", "Adamson", "Aitken", "Alexander", "Ali", "Allan", "Allen", "Allison", "Amos", "Andersen", "Anderson", "Andrew", "Andrews", "Angus", "Anthony", "Archer", "Armstrong", "Arnold", "Arthur", "Ashton", "Atkins", "Atkinson", "Austin", "Avery", "Bailey", "Bain", "Baird", "Baker", "Baldwin", "Ball", "Ballard", "Banks", "Barber", "Barclay", "Barker", "Barlow", "Barnes", "Barnett", "Barr", "Barrett", "Barry", "Bartlett", "Barton", "Bassett", "Bateman", "Bates", "Baxter", "Beard", "Beasley", "Beattie", "Beaumont", "Beck", "Beer", "Bell", "Bennett", "Benson", "Bentley", "Berry", "Best", "Betts", "Beveridge", "Birch", "Bird", "Bishop", "Black", "Blackburn", "Blair", "Blake", "Bloomfield", "Bolton", "Bond", "Booth", "Borg", "Bourke", "Bourne", "Bowden", "Bowen", "Bowman", "Boyce", "Boyd", "Boyle", "Bradford", "Bradley", "Bradshaw", "Brady", "Brand", "Bray", "Breen", "Brennan", "Brewer", "Briggs", "Bright", "Brook", "Brooks", "Brown", "Browne", "Browning", "Bruce", "Bryan", "Bryant", "Buchanan", "Buckley", "Bull", "Burgess", "Burke", "Burnett", "Burns", "Burrows", "Burt", "Burton", "Bush", "Butcher", "Butler", "Byrne", "Byrnes", "Cahill", "Cain", "Cairns", "Caldwell", "Callaghan", "Cameron", "Camilleri", "Campbell", "Cannon", "Carey", "Carmichael", "Carmody", "Carpenter", "Carr", "Carroll", "Carson", "Carter", "Cartwright", "Casey", "Cassidy", "Castle", "Cavanagh", "Chalmers", "Chamberlain", "Chambers", "Chan", "Chandler", "Chang", "Chapman", "Charles", "Charlton", "Chen", "Cheng", "Cheung", "Chong", "Christensen", "Christian", "Christie", "Chung", "Clancy", "Clark", "Clarke", "Clayton", "Cleary", "Clements", "Clifford", "Clifton", "Close", "Coates", "Cochrane", "Coffey", "Cohen", "Cole", "Coleman", "Coles", "Collier", "Collins", "Condon", "Connell", "Connolly", "Connor", "Conroy", "Conway", "Cook", "Cooke", "Cooper", "Corbett", "Corcoran", "Cornish", "Costello", "Cousins", "Cowan", "Cox", "Craig", "Crane", "Crawford", "Croft", "Crook", "Cross", "Crouch", "Crowe", "Crowley", "Cullen", "Cumming", "Cummings", "Cummins", "Cunningham", "Curran", "Currie", "Curtis", "Dale", "Daley", "Dalton", "Daly", "Daniel", "Daniels", "Davey", "David", "Davidson", "Davies", "Davis", "Davison", "Dawes", "Dawson", "Day", "de Silva", "Dean", "Delaney", "Dempsey", "Dennis", "Dent", "Devine", "Dick", "Dickinson", "Dickson", "Dillon", "Dixon", "Dobson", "Dodd", "Dodds", "Doherty", "Donald", "Donaldson", "Donnelly", "Donovan", "Douglas", "Dowling", "Downes", "Doyle", "Drake", "Draper", "Drew", "Drummond", "Duff", "Duffy", "Duggan", "Duncan", "Dunlop", "Dunn", "Dunne", "Dunstan", "Dwyer", "Dyer", "Dyson", "Eaton", "Eddy", "Edmonds", "Edwards", "Egan", "Eldridge", "Elliott", "Ellis", "Emery", "English", "Evans", "Everett", "Farmer", "Farrell", "Farrugia", "Faulkner", "Fenton", "Ferguson", "Fernandez", "Fernando", "Ferris", "Field", "Finch", "Findlay", "Finlay", "Finn", "Firth", "Fischer", "Fisher", "FitzGerald", "FitzPatrick", "Flanagan", "Fleming", "Fletcher", "Flynn", "Fogarty", "Foley", "Forbes", "Ford", "Forrest", "Forster", "Forsyth", "Foster", "Fowler", "Fox", "Francis", "Franklin", "Fraser", "Freeman", "French", "Frost", "Fry", "Fuller", "Fulton", "Gale", "Galea", "Gallagher", "Gardiner", "Gardner", "Garner", "Garrett", "Gates", "Gee", "George", "Gibbons", "Gibbs", "Gibson", "Gilbert", "Giles", "Gill", "Gillespie", "Gillies", "Gilmore", "Gilmour", "Gleeson", "Glover", "Goddard", "Godfrey", "Golding", "Goldsmith", "Goodman", "Goodwin", "Gordon", "Gorman", "Gough", "Gould", "Grace", "Graham", "Grant", "Gray", "Green", "Greenwood", "Gregory", "Greig", "Grey", "Griffin", "Griffiths", "Grigg", "Groves", "Gunn", "Guy", "Hackett", "Haines", "Hale", "Hall", "Hallam", "Halliday", "Hamilton", "Hammond", "Hancock", "Hanley", "Hanna", "Hansen", "Hanson", "Harding", "Hardy", "Hargreaves", "Harper", "Harrington", "Harris", "Harrison", "Hart", "Hartley", "Harvey", "Harwood", "Hawkins", "Hay", "Hayden", "Hayes", "Haynes", "Hayward", "Head", "Healey", "Healy", "Heath", "Heffernan", "Henderson", "Hennessy", "Henry", "Herbert", "Hetherington", "Hewitt", "Hickey", "Hicks", "Higgins", "Hill", "Hillier", "Hills", "Hilton", "Ho", "Hoare", "Hobbs", "Hobson", "Hocking", "Hodge", "Hodges", "Hodgson", "Hoffman", "Hoffmann", "Hogan", "Hogg", "Holden", "Holland", "Holloway", "Holmes", "Holt", "Hood", "Hooper", "Hope", "Hopkins", "Horne", "Horton", "Hosking", "Houghton", "Howard", "Howarth", "Howe", "Howell", "Huang", "Hudson", "Hughes", "Hull", "Humphrey", "Humphreys", "Humphries", "Hunt", "Hunter", "Hurley", "Hurst", "Hutchinson", "Hutchison", "Hutton", "Huynh", "Hyde", "Hyland", "Inglis", "Ingram", "Ireland", "Irvine", "Irving", "Irwin", "Jackson", "Jacobs", "James", "Jamieson", "Jansen", "Jarrett", "Jarvis", "Jeffery", "Jeffrey", "Jenkins", "Jennings", "Jensen", "John", "Johns", "Johnson", "Johnston", "Johnstone", "Jolly", "Jones", "Jordan", "Jorgensen", "Joseph", "Joyce", "Judd", "Kane", "Kaur", "Kavanagh", "Kay", "Keane", "Kearney", "Keating", "Keen", "Keenan", "Kelly", "Kemp", "Kendall", "Kennedy", "Kenny", "Kent", "Keogh", "Kerr", "Khan", "Kidd", "Kim", "King", "Kingston", "Kirby", "Kirk", "Knight", "Knowles", "Knox", "Koch", "Kruger", "Kumar", "Lacey", "Lai", "Lake", "Lam", "Lamb", "Lambert", "Lancaster", "Lane", "Lang", "Langford", "Larkin", "Larsen", "Lau", "Law", "Lawler", "Lawrence", "Lawson", "Le", "Leach", "Leahy", "Lee", "Lees", "Leonard", "Leong", "Leslie", "Lester", "Leung", "Lewis", "Li", "Lim", "Lin", "Lindsay", "Little", "Liu", "Lloyd", "Lock", "Lockwood", "Logan", "Long", "Lord", "Love", "Lovell", "Low", "Lowe", "Lu", "Lucas", "Luke", "Lynch", "Lyon", "Lyons", "Ma", "MacDonald", "MacFarlane", "MacKay", "MacKenzie", "MacKie", "MacLean", "MacLeod", "MacPherson", "Madden", "Maguire", "Maher", "Mahoney", "Mahony", "Malcolm", "Malone", "Maloney", "Mann", "Manning", "Mansfield", "Marks", "Marriott", "Marsh", "Marshall", "Martin", "Mason", "Masters", "Matheson", "Mathews", "Matthews", "Maxwell", "May", "Maynard", "McArthur", "McBride", "McCabe", "McCallum", "McCann", "McCarthy", "McConnell", "McCormack", "McCormick", "McCulloch", "McDermott", "McDonald", "McDonnell", "McDougall", "McFarlane", "McGowan", "McGrath", "McGregor", "McGuire", "McInerney", "McInnes", "McIntosh", "McIntyre", "McKay", "McKenna", "McKenzie", "McKinnon", "McLachlan", "McLaren", "McLaughlin", "McLean", "McLennan", "McLeod", "McMahon", "McMillan", "McNamara", "McNeill", "McPhee", "McPherson", "McRae", "Mead", "Mercer", "Meredith", "Meyer", "Michael", "Middleton", "Miles", "Millar", "Millard", "Miller", "Mills", "Milne", "Mitchell", "Molloy", "Moloney", "Monaghan", "Montgomery", "Moody", "Moon", "Mooney", "Moore", "Moran", "Morgan", "Morley", "Morris", "Morrison", "Morrissey", "Morrow", "Mortimer", "Morton", "Moss", "Moyle", "Muir", "Muller", "Mullins", "Munro", "Murdoch", "Murphy", "Murray", "Myers", "Nash", "Neal", "Neale", "Neil", "Neilson", "Nelson", "Neville", "Newell", "Newman", "Newton", "Ng", "Nguyen", "Nicholas", "Nicholls", "Nichols", "Nicholson", "Nicol", "Nielsen", "Nixon", "Noble", "Nolan", "Noonan", "Norman", "Norris", "North", "Norton", "Nugent", "Nunn", "Oakley", "Oates", "Obrien", "O'Brien", "O'Callaghan", "O'Connell", "O'Connor", "O'Donnell", "O'Halloran", "O'Keefe", "O'Keeffe", "O'Leary", "Oliver", "Olsen", "O'Neill", "Ong", "O'Reilly", "O'Rourke", "Orr", "Osborne", "O'Shea", "O'Sullivan", "Owen", "Owens", "Page", "Palmer", "Park", "Parker", "Parkes", "Parkinson", "Parry", "Parsons", "Partridge", "Pascoe", "Patel", "Paterson", "Paton", "Patterson", "Paul", "Payne", "Peacock", "Pearce", "Pearson", "Penny", "Perera", "Perkins", "Perry", "Peter", "Peters", "Petersen", "Peterson", "Pham", "Phillips", "Pickering", "Pike", "Piper", "Pitt", "Pollard", "Pollock", "Poole", "Pope", "Porter", "Potter", "Potts", "Powell", "Power", "Pratt", "Preston", "Price", "Prior", "Pritchard", "Purcell", "Quinn", "Radford", "Rae", "Ralph", "Ramsay", "Randall", "Rankin", "Ray", "Raymond", "Rayner", "Read", "Reardon", "Reed", "Rees", "Reeves", "Regan", "Reid", "Reilly", "Reynolds", "Rhodes", "Rice", "Richards", "Richardson", "Richmond", "Richter", "Ridley", "Rigby", "Riley", "Ritchie", "Roach", "Robb", "Roberts", "Robertson", "Robins", "Robinson", "Robson", "Roche", "Rodgers", "Rogers", "Rose", "Ross", "Rowe", "Rowland", "Rowley", "Russell", "Russo", "Rutherford", "Ryan", "Salmon", "Salter", "Sampson", "Sanders", "Sanderson", "Saunders", "Savage", "Sawyer", "Schmidt", "Schneider", "Schofield", "Schultz", "Schulz", "Scott", "Searle", "Seymour", "Shah", "Shannon", "Sharma", "Sharp", "Sharpe", "Shaw", "Sheehan", "Shepherd", "Sheppard", "Sheridan", "Shields", "Short", "Sim", "Simmonds", "Simmons", "Simon", "Simpson", "Sims", "Sinclair", "Singh", "Skinner", "Slade", "Slater", "Slattery", "Sloan", "Small", "Smart", "Smith", "Smyth", "Spence", "Spencer", "Stacey", "Stafford", "Stanley", "Stanton", "Steel", "Steele", "Stephen", "Stephens", "Stephenson", "Stevens", "Stevenson", "Stewart", "Stokes", "Stone", "Street", "Stringer", "Stuart", "Stubbs", "Sullivan", "Summers", "Sun", "Sutherland", "Sutton", "Swan", "Sweeney", "Sykes", "Symons", "Tait", "Talbot", "Tan", "Tang", "Tanner", "Taylor", "Terry", "Thomas", "Thompson", "Thomson", "Thorne", "Thornton", "Thorpe", "Tobin", "Todd", "Tomlinson", "Tonkin", "Townsend", "Tran", "Truong", "Tucker", "Turnbull", "Turner", "Tyler", "Vaughan", "Vella", "Vickers", "Vincent", "Wade", "Wagner", "Walker", "Wall", "Wallace", "Waller", "Wallis", "Walsh", "Walter", "Walters", "Walton", "Wang", "Ward", "Ware", "Warner", "Warren", "Waters", "Watkins", "Watson", "Watt", "Watts", "Weaver", "Webb", "Webber", "Weber", "Webster", "Weeks", "Weir", "Welch", "Wells", "Welsh", "West", "Weston", "Wheatley", "Wheeler", "Whelan", "White", "Whitehead", "Whiting", "Whittaker", "Whyte", "Wicks", "Wild", "Wilkins", "Wilkinson", "Williams", "Williamson", "Willis", "Wills", "Wilson", "Winter", "Wise", "Wiseman", "Withers", "Wong", "Wood", "Woods", "Woodward", "Woolley", "Wright", "Wu", "Wyatt", "Xu", "Yang", "Yates", "Young", "Yu", "Zhang", "Zhao", "Zhou", "Zhu"
 ];
+const countFamilyNames = familyNames.length;
 
 
 // Selectors
@@ -250,6 +251,9 @@ function generateTestPatients() {
   }
   testPatAppDataContainer.style.display = "block";
   addTitle();
+  for (let i = 0; i < quantity; i++) {
+    addTestPatient(i);
+  }
 
 
 }
@@ -265,12 +269,31 @@ function addTitle() {
   testPatAppDataContainer.appendChild(titleP);
 }
 
+function addTestPatient(i) {
+  const dataP = document.createElement("p");
+  dataP.appendChild(createNumberData(i));
+  dataP.appendChild(createNameData());
+  dataP.appendChild(createSurnameData());
+
+  // titleP.appendChild(createDOBTitle());
+  // titleP.appendChild(createMedicareTitle());
+  testPatAppDataContainer.appendChild(dataP);
+}
+
 function createNumberTitle() {
   const numberTitleSpan = document.createElement("span");
   const node = document.createTextNode("#");
   numberTitleSpan.appendChild(node);
   numberTitleSpan.classList.add('title-span');
   return numberTitleSpan;
+}
+
+function createNumberData(i) {
+  const numberDataSpan = document.createElement("span");
+  const node = document.createTextNode(i + 1 + ")");
+  numberDataSpan.appendChild(node);
+  numberDataSpan.classList.add('title-span');
+  return numberDataSpan;
 }
 
 function createNameTitle() {
@@ -281,17 +304,57 @@ function createNameTitle() {
   return nameTitleSpan;
 }
 
+function createNameData() {
+  const nameDataSpan = document.createElement("span");
+  const node = document.createTextNode(getRandomName());
+  nameDataSpan.appendChild(node);
+  nameDataSpan.classList.add('title-span');
+  return nameDataSpan;
+}
+
+function getRandomName() {
+  let name = "";
+  const gender = Math.floor(Math.random() * 2) + 1;
+  let nameIndex = -1;
+  if (gender === 1) {
+    name = "(M) " + maleNames[Math.floor(Math.random() * countMaleNames)];
+  } else if (gender === 2) {
+    name = "(F) " + femaleNames[Math.floor(Math.random() * countFemaleNames)];
+  }
+  return name;
+}
+
+function getGender() {
+  let gender = 5;
+  gender = Math.floor(Math.random() * 2) + 1;
+  return gender;
+}
+
 function createSurnameTitle() {
-  const surNameTitleSpan = document.createElement("span");
+  const surnameTitleSpan = document.createElement("span");
   const node = document.createTextNode("Family Name");
-  surNameTitleSpan.appendChild(node);
-  surNameTitleSpan.classList.add('title-span');
-  return surNameTitleSpan;
+  surnameTitleSpan.appendChild(node);
+  surnameTitleSpan.classList.add('title-span');
+  return surnameTitleSpan;
+}
+
+function createSurnameData() {
+  const surnameDataSpan = document.createElement("span");
+  const node = document.createTextNode(getRandomSurname());
+  surnameDataSpan.appendChild(node);
+  surnameDataSpan.classList.add('title-span');
+  return surnameDataSpan;
+}
+
+function getRandomSurname() {
+  let surname = "";
+  surname = familyNames[Math.floor(Math.random() * countFamilyNames)];
+  return surname;
 }
 
 function createDOBTitle() {
   const DOBTitleSpan = document.createElement("span");
-  const node = document.createTextNode("Data of Birth");
+  const node = document.createTextNode("Date of Birth");
   DOBTitleSpan.appendChild(node);
   DOBTitleSpan.classList.add('title-span');
   return DOBTitleSpan;
