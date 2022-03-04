@@ -254,8 +254,6 @@ function generateTestPatients() {
   for (let i = 0; i < quantity; i++) {
     addTestPatient(i);
   }
-
-
 }
 
 // Functions
@@ -275,8 +273,7 @@ function addTestPatient(i) {
   dataP.appendChild(createNameData());
   dataP.appendChild(createSurnameData());
   dataP.appendChild(createDOBData());
-
-  // titleP.appendChild(createMedicareTitle());
+  dataP.appendChild(createMedicareData());
   testPatAppDataContainer.appendChild(dataP);
 }
 
@@ -391,7 +388,13 @@ function createMedicareTitle() {
   return medicareTitleSpan;
 }
 
-
+function createMedicareData() {
+  const medicareDataSpan = document.createElement("span");
+  const node = document.createTextNode(randomMedicareNumber());
+  medicareDataSpan.appendChild(node);
+  medicareDataSpan.classList.add('title-span');
+  return medicareDataSpan;
+}
 
 function resetGenTestPatApp() {
   testPatComponent.style.display = "none";
