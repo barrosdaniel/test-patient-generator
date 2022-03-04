@@ -86,6 +86,23 @@
     <section class="app test-pat-app container">
         <h2 class="app__title">Generate Test Patients</h2>
 
+        <div class="test-pat-app__qty-selection">
+            <p class="app__qty-selection-label">Enter number of test patients to generate (1-100):</p>
+
+            <input class="test-pat-app__qty-selection-input"
+                type="number"
+                name="test-pat-qty"
+                id="test-pat-qty"
+                min="1"
+                max="100">
+
+            <button class="test-pat-app__qty-selection-generate">Generate Test Patients</button>
+        </div>
+
+        <div class="app__data test-pat-app__data">
+            <!-- <p class="test-pat-app__data-string-title">6920137511-1</p> -->
+        </div>
+
     </section>
     <script src="js/app.js"></script>
 </body>

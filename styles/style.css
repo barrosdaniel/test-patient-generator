@@ -135,7 +135,8 @@ WEBSITE
 }
 
 .app__qty-selection,
-.pass-app__qty-selection {
+.pass-app__qty-selection,
+.test-pat-app__qty-selection {
     padding: 1rem;
     margin-bottom: 2rem;
     border: 0.1rem solid var(--color-gray-light);
@@ -148,7 +149,8 @@ WEBSITE
 }
 
 .app__qty-selection-input,
-.pass-app__qty-selection-input {
+.pass-app__qty-selection-input,
+.test-pat-app__qty-selection-input {
     margin-bottom: 1rem;
     border: 0.1rem solid var(--color-gray-light);
     border-radius: 0.2rem;
@@ -158,7 +160,8 @@ WEBSITE
 }
 
 .app__qty-selection-generate,
-.pass-app__qty-selection-generate {
+.pass-app__qty-selection-generate,
+.test-pat-app__qty-selection-generate {
     display: block;
     border: 0.2rem solid var(--color-primary);
     border-radius: 0.5rem;
@@ -169,7 +172,8 @@ WEBSITE
 }
 
 .app__qty-selection-generate:hover,
-.pass-app__qty-selection-generate:hover {
+.pass-app__qty-selection-generate:hover,
+.test-pat-app__qty-selection-generate:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
     cursor: pointer;
@@ -177,7 +181,8 @@ WEBSITE
 }
 
 .app__qty-selection-generate:focus,
-.pass-app__qty-selection-generate:focus {
+.pass-app__qty-selection-generate:focus,
+.test-pat-app__qty-selection-generate:focus {
     outline: none;
 }
 
@@ -189,12 +194,14 @@ WEBSITE
 }
 
 .med-app__data,
-.pass-app__data {
+.pass-app__data,
+.test-pat-app__data {
     display: none;
 }
 
 .med-app__data-string,
-.pass-app__data-string {
+.pass-app__data-string,
+.test-pat-app__data-string {
     font-size: 1.6rem;
 }
 
@@ -211,4 +218,21 @@ WEBSITE
 .pass-app-input-container__col2 {
     margin-left: 2rem;
     font-size: 1.4rem;
+}
+
+.title-span {
+    display: inline-block;
+    width: 20rem;
+    border-right: 0.1rem solid var(--color-gray-light);
+    padding-left: 1rem;
+    font-size: 1.6rem;
+}
+
+.title-span:first-child {
+    padding-left: 0;
+    width: 4rem;
+}
+
+.title-span:last-child {
+    border-right: none;
 }
