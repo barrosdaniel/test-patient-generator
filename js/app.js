@@ -274,8 +274,8 @@ function addTestPatient(i) {
   dataP.appendChild(createNumberData(i));
   dataP.appendChild(createNameData());
   dataP.appendChild(createSurnameData());
+  dataP.appendChild(createDOBData());
 
-  // titleP.appendChild(createDOBTitle());
   // titleP.appendChild(createMedicareTitle());
   testPatAppDataContainer.appendChild(dataP);
 }
@@ -358,6 +358,29 @@ function createDOBTitle() {
   DOBTitleSpan.appendChild(node);
   DOBTitleSpan.classList.add('title-span');
   return DOBTitleSpan;
+}
+
+function createDOBData() {
+  const DOBDataSpan = document.createElement("span");
+  const node = document.createTextNode(getRandomDate("01/01/1915", new Date().toLocaleDateString()));
+  DOBDataSpan.appendChild(node);
+  DOBDataSpan.classList.add('title-span');
+  return DOBDataSpan;
+}
+
+function getRandomDate(datePar1, datePar2){
+  function randomValueBetween(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+  let date1 = datePar1;
+  let date2 = datePar2;
+  date1 = new Date(date1).getTime();
+  date2 = new Date(date2).getTime();
+  if( date1 > date2 ) {
+      return new Date(randomValueBetween(date2,date1)).toLocaleDateString();   
+  } else {
+      return new Date(randomValueBetween(date1, date2)).toLocaleDateString();  
+  }
 }
 
 function createMedicareTitle() {
