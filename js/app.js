@@ -139,8 +139,8 @@ function generatePassword() {
     return;
   }
   const characters = numCharacters.value;
-  if (characters < 1 || characters > 32) {
-    window.alert("JS ERROR: The number of characters has to be between 1 and 32. Try again.");
+  if (characters < 9 || characters > 64) {
+    window.alert("JS ERROR: The number of characters has to be between 9 and 64. Try again.");
     numCharacters.value = "";
     passAppDataContainer.style.display = "none";
     return;
@@ -359,21 +359,20 @@ function createDOBTitle() {
 
 function createDOBData() {
   const DOBDataSpan = document.createElement("span");
-  const node = document.createTextNode(getRandomDate("01/01/1915", new Date().toLocaleDateString()));
+  const node = document.createTextNode(getRandomDate("01/01/1915"));
   DOBDataSpan.appendChild(node);
   DOBDataSpan.classList.add('title-span');
   return DOBDataSpan;
 }
 
-function getRandomDate(datePar1, datePar2){
+function getRandomDate(datePar1){
   function randomValueBetween(min, max) {
     return Math.random() * (max - min) + min;
   }
   let date1 = datePar1;
-  let date2 = datePar2;
   date1 = new Date(date1).getTime();
-  date2 = new Date(date2).getTime();
-  if( date1 > date2 ) {
+  let date2 = new Date().getTime();
+    if( date1 > date2 ) {
       return new Date(randomValueBetween(date2,date1)).toLocaleDateString();   
   } else {
       return new Date(randomValueBetween(date1, date2)).toLocaleDateString();  
