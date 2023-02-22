@@ -6,7 +6,7 @@ COLOURS
     --color-white: #f9f9f9;
     --color-black: #111;
     --color-gray-light: #CCC;
-
+    --fonts: "Arial Rounded MT", sans-serif;
     --box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
 }
 
@@ -31,7 +31,7 @@ body {
     box-sizing: border-box;
     background-color: var(--color-white);
     color: var(--color-black);
-    font-family: "Arial Rounded MT", sans-serif;
+    font-family: var(--fonts);
     font-weight: 400;
     line-height: 1.5;
     height: 100%;
@@ -159,6 +159,10 @@ WEBSITE
     outline: none;
 }
 
+.test-pat-app__qty-selection-input {
+    margin-bottom: 0;
+}
+
 .app__qty-selection-generate,
 .pass-app__qty-selection-generate,
 .test-pat-app__qty-selection-generate {
@@ -205,17 +209,21 @@ WEBSITE
     font-size: 1.6rem;
 }
 
-.pass-app-input-container {
-    margin-bottom: 2rem;
+.pass-app-input-container,
+.test-pat-app-input-container {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: flex-start;
 }
 
-.pass-app__qty-selection-input {
+.pass-app__qty-selection-input,
+.test-pat-app__qty-selection-input {
     align-self: center;
+    font-family: var(--fonts);
 }
 
-.pass-app-input-container__col2 {
+.pass-app-input-container__col2,
+.test-pat-app-input-container__col2 {
     margin-left: 2rem;
     font-size: 1.4rem;
 }

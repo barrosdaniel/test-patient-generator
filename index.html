@@ -22,8 +22,10 @@
         <div class="menu__options">
             <button class="menu__button button_genMedNum">Generate Medicare
                 Numbers</button>
-            <button class="menu__button button_genPass">Generate Password</button>
-            <button class="menu__button button_genTestPat">Generate Test Patients</button>
+            <button class="menu__button button_genPass">Generate
+                Password</button>
+            <button class="menu__button button_genTestPat">Generate Test
+                Patients</button>
         </div>
     </section>
 
@@ -41,7 +43,8 @@
                 min="1"
                 max="100">
 
-            <button class="app__qty-selection-generate">Generate Medicare Numbers</button>
+            <button class="app__qty-selection-generate">Generate Medicare
+                Numbers</button>
         </div>
 
         <div class="app__data med-app__data">
@@ -54,7 +57,8 @@
         <h2 class="app__title">Generate Password</h2>
 
         <div class="pass-app__qty-selection">
-            <p class="app__qty-selection-label">Enter number characters of the password (9-64):</p>
+            <p class="app__qty-selection-label">Enter number characters of the
+                password (9-64):</p>
 
             <div class="pass-app-input-container">
                 <input class="pass-app__qty-selection-input"
@@ -64,17 +68,30 @@
                     min="1"
                     max="32">
                 <div class="pass-app-input-container__col2">
-                    <input type="checkbox" id="smallCaps" name="smallCaps" value="smallCaps">
+                    <input type="checkbox"
+                        id="smallCaps"
+                        name="smallCaps"
+                        value="smallCaps">
                     <label for="smallCaps"> Small caps letters</label><br>
-                    <input type="checkbox" id="caps" name="caps" value="caps">
+                    <input type="checkbox"
+                        id="caps"
+                        name="caps"
+                        value="caps">
                     <label for="caps"> High caps letters</label><br>
-                    <input type="checkbox" id="numbers" name="numbers" value="numbers">
+                    <input type="checkbox"
+                        id="numbers"
+                        name="numbers"
+                        value="numbers">
                     <label for="numbers"> Numbers</label><br>
-                    <input type="checkbox" id="special" name="special" value="special">
+                    <input type="checkbox"
+                        id="special"
+                        name="special"
+                        value="special">
                     <label for="special"> Special characters</label><br>
                 </div>
             </div>
-            <button class="pass-app__qty-selection-generate">Generate Password</button>
+            <button class="pass-app__qty-selection-generate">Generate
+                Password</button>
         </div>
 
         <div class="app__data pass-app__data">
@@ -87,16 +104,28 @@
         <h2 class="app__title">Generate Test Patients</h2>
 
         <div class="test-pat-app__qty-selection">
-            <p class="app__qty-selection-label">Enter number of test patients to generate (1-100):</p>
+            <p class="app__qty-selection-label">Enter number of test patients to
+                generate (1-100):</p>
 
-            <input class="test-pat-app__qty-selection-input"
-                type="number"
-                name="test-pat-qty"
-                id="test-pat-qty"
-                min="1"
-                max="100">
+            <div class="test-pat-app-input-container">
+                <input class="test-pat-app__qty-selection-input"
+                    type="number"
+                    name="test-pat-qty"
+                    id="test-pat-qty"
+                    min="1"
+                    max="100">
 
-            <button class="test-pat-app__qty-selection-generate">Generate Test Patients</button>
+                <div class="test-pat-app-input-container__col2">
+                    <input type="checkbox"
+                        id="childrenOnly"
+                        name="childrenOnly"
+                        value="childrenOnly">
+                    <label for="childrenOnly"> Children only</label>
+                </div>
+            </div>
+
+            <button class="test-pat-app__qty-selection-generate">Generate Test
+                Patients</button>
         </div>
 
         <div class="app__data test-pat-app__data">
